@@ -26,7 +26,7 @@ allLinks.forEach((link) => {
       sectionEl.scrollIntoView({ behavior: 'smooth' });
     }
 
-    if (link.classList.contains('main-nav-link '))
+    if (link.classList.contains('main-nav-link'))
       headerEl.classList.toggle('nav-open');
   });
 });
